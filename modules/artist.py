@@ -1,4 +1,4 @@
 class Artist:
-    def __init__(self, id, artist_name):
+    def __init__(self, id, name):
         self.id = id
-        self.name = artist_name
+        self.name = name

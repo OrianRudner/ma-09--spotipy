@@ -5,3 +5,6 @@ class Song:
         self.popularity = popularity
         self.album = album
         self.artists = artists
+
+    def get_popularity(self):
+        return self.popularity

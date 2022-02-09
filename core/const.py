@@ -6,3 +6,8 @@ class RegularUserLimit:
 class UserType:
     REGULAR = "regular"
     PREMIUM = "premium"
+
+
+class SearchResults:
+    REGULAR_RESULTS = 5
+    PREMIUM_RESULTS = 10

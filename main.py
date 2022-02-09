@@ -10,9 +10,9 @@ def main():
     user2.add_song(user2, "a", ["sa", "ds", "afaf", "dsfsg"])
     print(user1.type)
     print(user2.type)
-
+    y = search_artist_top_songs("Arctic Monkeys", user2)
+    x = search_artist_top_songs("Arctic Monkeys", user1)
     print(search_songs_by_album("AM"))
-
 
 
 if __name__ == '__main__':

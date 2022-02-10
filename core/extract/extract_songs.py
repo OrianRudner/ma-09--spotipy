@@ -10,5 +10,3 @@ def extract_songs(directory_path):
             temp_song = json.loads(current_file.read())
             songs.append(temp_song)
     return songs
-
-

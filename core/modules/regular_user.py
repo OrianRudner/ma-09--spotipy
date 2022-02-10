@@ -1,4 +1,5 @@
 from typing import List
+
 from core.const import RegularUserLimit, UserType
 from core.modules.user import User
 
@@ -11,7 +12,7 @@ class RegularUser(User):
     @staticmethod
     def create_playlist(self, playlist_name, songs=None):
         if RegularUser.check_playlists_limit(self):
-            super().create_playlist(self, playlist_name, songs)
+            super().create_playlist(self, playlist_name)
 
     @staticmethod
     def add_song(self, playlist_name, songs: List):

@@ -19,6 +19,16 @@
             "user": "user4",
             "password": "pass4",
             "type": "regular"
+        },
+        {
+            "user": "1",
+            "password": "1",
+            "type": "regular"
+        },
+        {
+            "user": "2",
+            "password": "2",
+            "type": "regular"
         }
     ]
 }

@@ -1,7 +1,7 @@
 from typing import List, Dict
-from core.modules.song import Song
 from core.modules.album import Album
 from core.modules.artist import Artist
+from core.modules.song import Song
 
 
 def parse_songs(tracks: List[Dict]):
@@ -9,7 +9,8 @@ def parse_songs(tracks: List[Dict]):
     for track in tracks:
         album = parse_album(track["track"]["album"])
         current_artists = parse_artists(track["track"]["artists"])
-        songs.append(Song(track["track"]["id"], track["track"]["name"], track["track"]["popularity"], album, current_artists))
+        songs.append(
+            Song(track["track"]["id"], track["track"]["name"], track["track"]["popularity"], album, current_artists))
     return songs
 
 

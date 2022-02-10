@@ -1,12 +1,15 @@
-from core.modules.user import User
-from core.search.search import *
-from core.modules.regular_user import RegularUser
+import configparser
 from core.authentication import *
+from core.user_interface import console
 
 
 def main():
-    x = sigh_up("user4", "pass4", "C:\\Users\\orian\\Desktop\\curseProject\\spotipy\\ma-09--spotipy\\core\\user.json")
-    #print(x.name + " " + x.password)
+    config = configparser.ConfigParser()
+    config.read('config.properties')
+    paths = config['Path']
+    users_file_path = paths['users_file']
+    user = log_in(users_file_path)
+    console.run_menu(user)
 
 
 if __name__ == '__main__':

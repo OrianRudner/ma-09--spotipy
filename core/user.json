@@ -1,14 +1,24 @@
 {
-  "users": [
-    {
-      "user": "user1",
-      "password": "pass1",
-      "type": "regular"
-    },
-    {
-      "user": "user2",
-      "password": "pass2",
-      "type": "regular"
-    }
-  ]
+    "users": [
+        {
+            "user": "user1",
+            "password": "pass1",
+            "type": "regular"
+        },
+        {
+            "user": "user2",
+            "password": "pass2",
+            "type": "premium"
+        },
+        {
+            "user": "user3",
+            "password": "pass2",
+            "type": "regular"
+        },
+        {
+            "user": "user4",
+            "password": "pass4",
+            "type": "regular"
+        }
+    ]
 }

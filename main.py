@@ -5,7 +5,8 @@ from core.authentication import *
 
 
 def main():
-    print(log_in("user2", "pass2", "C:\\Users\\orian\\Desktop\\curseProject\\spotipy\\ma-09--spotipy\\core\\user.json"))
+    x = sigh_up("user4", "pass4", "C:\\Users\\orian\\Desktop\\curseProject\\spotipy\\ma-09--spotipy\\core\\user.json")
+    #print(x.name + " " + x.password)
 
 
 if __name__ == '__main__':

@@ -11,3 +11,9 @@ class UserType:
 class SearchResults:
     REGULAR_RESULTS = 5
     PREMIUM_RESULTS = 10
+
+
+class UsersJsonKeys:
+    USER = "user"
+    PASSWORD = "password"
+    TYPE = "type"
